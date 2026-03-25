@@ -1,11 +1,11 @@
-# 🎯 Person Tracking Task (AI Interview)
+# Person Tracking Task
 
 This work was done as part of an AI interview task.  
 The objective was to detect and track a fast-moving person in a mountain descent video and maintain tracking till the end as accurately as possible.
 
 ---
 
-## 📌 Problem Statement
+## Problem Statement
 
 Given a video, track the same moving person across all frames and:
 
@@ -16,7 +16,7 @@ Given a video, track the same moving person across all frames and:
 
 ---
 
-## ⚠️ Challenges Faced
+## Challenges Faced
 
 This task was not straightforward because:
 
@@ -30,12 +30,12 @@ So a simple tracking approach does not work reliably.
 
 ---
 
-## 🔍 Approaches Tried (and Why They Failed)
+## Approaches Tried (and Why They Failed)
 
 ### 1. Background Subtraction + Frame Difference
 - Idea: detect motion and track it  
 - Problem: background also changes → wrong regions selected  
-- Result: ❌ unstable tracking
+- Result: unstable tracking
 
 ---
 
@@ -44,7 +44,7 @@ So a simple tracking approach does not work reliably.
 - Failed when:
   - speed increased
   - object scale changed
-- Result: ❌ loses target mid-video
+- Result: loses target mid-video
 
 ---
 
@@ -53,7 +53,7 @@ So a simple tracking approach does not work reliably.
 - But:
   - sometimes detects wrong person initially
   - tracking still drifts after detection
-- Result: ⚠️ better but not reliable
+- Result: better but not reliable
 
 ---
 
@@ -62,7 +62,7 @@ So a simple tracking approach does not work reliably.
 - But:
   - depends on correct detection
   - alone cannot fix identity switching
-- Result: ⚠️ useful but not sufficient
+- Result: useful but not sufficient
 
 ---
 
@@ -159,9 +159,9 @@ This was not about finding a perfect solution, but about how we approach the pro
 
 Through multiple failed attempts, I learned:
 
--where each method breaks
--how to combine techniques
--how to design a robust pipeline
+- where each method breaks
+- how to combine techniques
+- how to design a robust pipeline
 
 The final result is not perfect, but it works reliably for most of the video and demonstrates a clear problem-solving approach.
 
