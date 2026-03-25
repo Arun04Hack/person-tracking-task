@@ -124,15 +124,22 @@ The final solution is a **hybrid tracking system**:
 ---
 
 ## Output
+### 🔹 Full Video
+Watch full result here:  
+https://youtube.com/shorts/ISv4A8-6hb0?si=onZRzw1-hViEViqW
 
 The solution generates:
 
 - **Tracked Video**
   - Bounding box around the person
+  - Sample GIF:
+  - ![demo](https://github.com/user-attachments/assets/c90ea580-49de-4d3d-aa1c-f3aceb1cd2fd)
+
 - **Analysis Plot**
   - Trajectory
   - X & Y position over time
   - Speed graph
+<img width="1804" height="1152" alt="tracking_analysis" src="https://github.com/user-attachments/assets/ed9696fe-e4ea-4a7c-b33c-8a2efd418728" />
 
 ---
 
